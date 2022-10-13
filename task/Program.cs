@@ -37,3 +37,6 @@ void PrintArray(string[] arr)
     }
     Console.Write("]");
 }
+//вывожу массив
+string[] arrayResult = CreateArray(array);
+PrintArray(arrayResult);
